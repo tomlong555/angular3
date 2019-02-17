@@ -5,6 +5,5 @@ export class User{
         public Email:string,
         public age:number
     ){
-
     }
 }

@@ -1,6 +1,6 @@
 <div>
-  <app-from></app-from>
+  <app-from (change)="onChange($event)"></app-from>
 </div>
 <div>
-  <app-detail></app-detail>
+  <app-detail [user]="user"></app-detail>
 </div>
