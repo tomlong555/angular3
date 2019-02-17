@@ -4,10 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule , ReactiveFormsModule} from '@angular/forms';
+import { FromComponent } from './from/from.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FromComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
